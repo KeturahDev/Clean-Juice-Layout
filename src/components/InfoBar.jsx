@@ -6,12 +6,13 @@ const Box = styled.div`
 `;
 
 const InfoBar = () => {
-  const [selected, setSelected] = useState('image 1');
+  const [selected, setSelected] = useState('OrangeBottle.png');
 
   return (
     <Box>
       <button onClick={() => alert('back')}>back</button>
-      {selected}
+      <img src="OrangeBottle.jpg" alt="img of bottle" />
+      {/* <img src={require(OrangeBottle.jpg)} alt="img of bottle" /> */}
       <button onClick={() => alert('forward')}>forward</button>
     </Box>
   );
