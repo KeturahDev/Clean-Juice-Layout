@@ -1,22 +1,21 @@
 import React from 'react';
 import styled from 'styled-components';
+import InfoBar from './InfoBar';
 
 const Box = styled.div`
   display: flex;
-  margin: 12%;
-  padding: 5%;
+  margin: 12% 0;
+  padding: 1em;
   border: 2px solid orange;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 `;
 const Main = () => {
   return (
-    <React.Fragment>
-      <Box>
-        <div>Main content's components.</div>
-      </Box>
-    </React.Fragment>
+    <Box>
+      <InfoBar />
+    </Box>
   );
 };
 
