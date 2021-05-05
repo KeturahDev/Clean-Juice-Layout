@@ -1,15 +1,17 @@
-# [React App Template](https://www.linkedin.com/in/keturah-howard-dev/)
+# Clean Juice Layout Mock
 
-By: Keturah Howard _Month date 2021_
+By: Keturah Howard, May 5th 2021\_
 
 ## Description
 
-An app focused around [main functionality]. Created for the purpose of [solution] for [this problem].
+An app focused around recreating [this layout](https://www.pinterest.com/pin/18718154688664453/). Created for the purpose of practicing styling and organizing modular react components.
 
-[Coming soon- hosting
+[Coming soon- hosting. For now heres a relaxing cat app!
 ](https://master.d2rd0wm9h254t.amplifyapp.com/)
 
 ## Behavior List
+
+looking like the clean juice layout
 
 ## Specs
 
@@ -23,9 +25,7 @@ An app focused around [main functionality]. Created for the purpose of [solution
 
 - React
 - JavaScript
-- AWS Amplify
 - styled components
-- axios
 
 ## Liscense
 
